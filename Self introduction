@@ -1,0 +1,18 @@
+# Self Introduction Program - Deevika V.
+
+def introduce_yourself():
+    name = "Deevika V."
+    place = "Adyar"
+    course = "B.E."
+    school = "St. John’s Matriculation Hr. Sec. School"
+    hobbies = ["traveling", "exploring new things", "listening to music"]
+
+    print("Hi everyone! 👋")
+    print(f"I'm {name} from {place}.")
+    print(f"I have joined {course} and completed my schooling at {school}.")
+    print(f"Apart from academics, I enjoy {', '.join(hobbies)}.")
+    print("I'm looking forward to learning new skills, making new friends, and growing in this field.")
+    print("Thank you! 😊")
+
+# Call the function
+introduce_yourself()
